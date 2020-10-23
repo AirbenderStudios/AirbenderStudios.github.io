@@ -1,0 +1,182 @@
+
+
+body {
+    margin-top: 7%;
+    /* background-color: blueviolet; */
+    
+    line-height: 200%;
+    background-color: blueviolet;
+  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+}
+
+.paragraph {
+    color: rgb(95, 246, 69);
+    line-height: 110%;
+    font-style: italic;
+}
+
+.carousel-inner {
+    opacity: 90%;
+}
+
+#name {
+    font-size: 1em;
+    font-weight: 800;
+}
+
+.button {
+    background-color: black;
+    color: rgb(90, 221, 67);
+    /* font-size: .8em; */
+    font-weight: 900;
+}
+
+.button:hover {
+    color: rgb(192, 18, 18);
+   
+}
+
+.input-group-text {border-radius: 1em;}
+
+#but:hover {
+    color: rgb(192, 18, 18);
+   
+}
+
+
+#prototype {
+    text-decoration: none;
+    color: rgb(69, 246, 246);
+}
+
+#prototype:hover {
+    text-decoration: none;
+    color: rgb(13, 14, 14);
+}
+
+a:link {text-decoration: none;}
+
+#header {text-align: center;}
+
+#projects {text-align: center;}
+
+#nameForm {text-align: center;}
+
+#genderForm {text-align: center;}
+
+.p {
+    color: rgb(69, 246, 246);
+    line-height: 200%;
+    font-weight: 600;
+}
+
+div {
+    color: rgb(8, 8, 8);
+}
+
+.carousel {
+    filter: drop-shadow(30px 10px 4px #040405);
+    margin-top: -3%;
+    margin-left: auto;
+    margin-right: auto;
+    width:460px;
+    height:200px;
+  }
+
+h1 {
+
+    color: rgb(20, 1, 20);
+}
+
+li {
+    list-style-type: none;
+}
+
+li:hover {
+    list-style-type: none;
+    font-size: 3em;
+    color: black;
+    font-weight: 800;
+}
+
+.menu {
+        padding-top: 2px;
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0 0 10px;
+        
+}
+/* 
+.menu:hover {
+    padding-top: 2px;
+    width: 35px;
+    height: 5px;
+    background-color: rgb(238, 18, 110);
+    margin: 6px 0 0 10px;
+    
+} */
+
+p {
+    font-size: 2em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.Leif {
+font-size: 4em;
+}
+
+#slide {
+    border-style: groove 2px;
+    justify-content: center;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.Proj {
+    color: black;
+    margin-top: 3%;
+font-size: 2.2em;
+
+}
+
+@keyframes example {
+    0% {background-color: blueviolet;}
+    40% {background-color: rgb(42, 112, 243);}
+    68% {background-color: blueviolet;}
+  }
+
+  .separator-type, .title-type, .intro-type, .content-type .intro-type p {
+    position: relative;
+  }
+  .intro-type .container {
+    padding: 107px 0px 102px 0px !important;
+  }
+  .company-heading h1 {
+    margin-bottom: 60px;
+    padding-bottom: 50px;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 700 !important;
+    text-align: center;
+  }
+
+  #upButton {
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-size: 3em;
+  }
+
+  #upButton:hover {
+    color: rgb(192, 18, 18);
+   
+}
